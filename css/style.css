@@ -1,13 +1,17 @@
+head{
+    background-color: #c37222;
+}
 header{
-    margin-top: 0px;
+    margin: 0px;
     background-color: #c37222;
     height: 120px;
     display:inline-block;
+    font-family: 'Nunito Sans', sans-serif;
 }
 body{
     margin: 0px;
     background-color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 
 }
 body a{
@@ -16,6 +20,10 @@ body a{
 h1 {
     color: black;
     font-size: 35px;
+}
+h2 {
+    color: black;
+    font-size: 25px;
 }
 p{
     color: black;
@@ -31,4 +39,25 @@ li {
 .footertext{
     color: darkslateblue;
     font-size: 20px;
+}
+main{
+    max-width: 800px;
+    padding: 20px;
+}
+main img{
+    max-width: 100%;
+}
+a:hover{
+    color: #c37222;
+    background-color: black;
+}
+footer{
+    background-color: #c37222;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin: 0;
+    }
+footer p{
+    margin: 0;
 }
