@@ -1,8 +1,21 @@
+header{
+    margin-top: 0px;
+    background-color: #c37222;
+    height: 120px;
+    display:inline-block;
+}
 body{
+    margin: 0px;
     background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body a{
+    color: black;
 }
 h1 {
     color: black;
+    font-size: 35px;
 }
 p{
     color: black;
@@ -10,6 +23,7 @@ p{
 li {
     color: black;
 }
+
 .navigationlinks{
     color: darkgray;
     font-size: 15px;
